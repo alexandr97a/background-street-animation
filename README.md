@@ -1,1 +1,2 @@
-# background-street-animation
+# bg-animation
+애니메이션 공부를 하면서 움직이는 배경화면을 만들어보고 싶었다.
