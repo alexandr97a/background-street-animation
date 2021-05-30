@@ -84,3 +84,22 @@
         transform: translateX(calc(-100vw - 200px)) rotateY(180deg);
     }
 }
+.music{
+    display: block;
+    position: absolute;
+    right: 0;
+    max-width: 250px;
+    height: 30px;
+}
+.music:focus {
+    outline: none;
+}
+.music::-webkit-media-controls-play-button, .music::-webkit-media-controls-panel{
+    background: linear-gradient(#a6d8ff, #ACDBFF, #ACDBFF);
+}
+
+.dark .music::-webkit-media-controls-play-button, .dark .music::-webkit-media-controls-panel{
+    background: #222833;
+}
+
+     
