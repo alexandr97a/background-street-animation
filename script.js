@@ -6,9 +6,3 @@ sun.onclick = function(){
 
 const music = document.querySelector(".music");
 music.volume = 0.1;
-
-document.getElementById("car1").addEventListener("wheel", speedUp);
-
-function speedUp() {
-  this.style.animation = "car1 4s linear infinite";
-}
